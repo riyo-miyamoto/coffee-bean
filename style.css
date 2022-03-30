@@ -48,7 +48,6 @@ li, p, a {
 #navigation ul li a {
     color: #19100F;
 }
-
 #banner {
     width: 100%;
     height: 670px;
@@ -86,7 +85,7 @@ li, p, a {
 }
 .ads {
     width: 85%;
-    margin:4em auto;
+    margin:4em auto;/*始めはmargin 0で後で調整*/
     overflow: auto;
 }
 .ads-item {
@@ -111,6 +110,8 @@ li, p, a {
     font-size: 2em;
     text-transform: uppercase;
     text-shadow: 3px 3px 5px #312a26;
+    line-height: 1.2em;
+    margin-bottom:0.4em;
 
 }
 .ads-text a {
@@ -125,7 +126,175 @@ li, p, a {
     left: 10%;
     transform:translateY(-50%);
     position: absolute;
+}
+.section-header  {
+    text-align: center;
+}
+.section-header p {
+    color:#c7a17a;
+    font-style: italic;
 
 }
+.section-header h2 {
+    color:#19100F;
+    text-transform: uppercase;
 
+}
+.section-header hr {
+    height:2px;
+    background-color:#c7a17a;
+    margin: 0 auto 2em auto;
+    width:25%;
+}
+.merch-item img {
+    height: 350px;
+    width :100%;
+    object-fit: cover;
+}
+.merch-item p, .merch-item span {
+    font-weight: 500;
+}
+.merch-item {
+    float: left;
+    width: 24.25%;
+    margin-right: 1%;
+    margin-bottom: 1%
+}
+.merch-gallery :nth-child(4), .merch-gallery :nth-child(8) {
+    margin-right: 0;
+}
+.merch-gallery :nth-child(5) {
+    clear: left;
+}
+.merch {
+    width: 85%;
+    margin: 1em auto;
+    overflow: auto;
+}
+.discount {
+    width: 85%;
+    height: 350px;
+    margin: 4em auto;
+    color: #fff;
+    background-image: url('images/discount-img.jpg');
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+}
+.discount-text p {
+    font-style: italic;
+    text-shadow: 3ps 3px 6px #312a26;
+}
+.discount-text h2 {
+    text-transform: uppercase;
+    text-shadow: 4px 4px 7px #312a26;
+    font-size: 2em;
+}
+.discount-text a {
+    text-decoration:none;
+    color: #19100F;
+    background-color: #fff;
+    padding: 1em;
+    display :inline-block;
+    font-weight: 700;
+    opacity: 50%;
+    margin-top :1em;
+}
+.discount-text {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*translate(X,Y)value */
+}
+.section-header2  {
+    text-align: center;
+}
+.section-header2 p {
+    color:#c7a17a;
+    font-style: italic;
 
+}
+.section-header2 h2 {
+    color:#19100F;
+    text-transform: uppercase;
+}
+.section-header2 hr {
+    height:2px;
+    background-color:#c7a17a;
+    margin: 0 auto 2em auto;
+    width:25%;
+}
+.sale-item img {
+    height: 350px;
+    width : 100%;
+    object-fit: cover;
+}
+.sale-item p, .sale-item span {
+    font-weight: 500;
+}
+.sale-item {
+    float: left;
+    width: 24.25%;
+    margin-right: 1%;
+    margin-bottom: 1%
+}
+.sale-gallery :nth-child(4)  {
+    margin-right: 0;
+}
+.sale-gallery {
+    width: 85%;
+    margin: 1em auto;
+    overflow: auto;
+}
+
+.ads2 {
+    width: 85%;
+    margin:4em auto;
+    overflow: auto;
+}
+.ads2-item {
+    width: 48.5%;
+    float: left;
+    margin-right:3%;
+    margin-top: 3%;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.ads2-item1 {
+    background-image:url('images/ads-img3.jpg');
+}
+.ads2-item2 {
+    background-image:url('images/ads-img4.jpg');
+    margin-right: 0;
+}
+.ads2-item3 {
+    background-image:url('images/ads-img5.jpg');
+}
+.ads2-item4 {
+    background-image:url('images/ads-img6.jpg');
+    margin-right: 0;
+}
+.ads2-text h3 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #312a26;
+    line-height: 1.2em;
+    margin-bottom:0.4em;
+}
+.ads2-text a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ads2-text {
+    width: 40%;
+    top :50%;
+    left: 10%;
+    transform:translateY(-50%);
+    position: absolute;
+}
